@@ -9,10 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".authentication.Auth_completion"></activity>
+        <activity android:name=".pages.Error_page"></activity>
+        <activity android:name=".pages.user.user_base_page" />
+        <activity android:name=".pages.admin.admin_base_page" />
+        <activity android:name=".authentication.Auth_completion" />
         <activity android:name=".authentication.Register" />
         <activity android:name=".authentication.Login" />
-        <activity android:name=".pages.penyedia.base_page" />
+        <activity android:name=".pages.penyedia.penyedia_base_page" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
