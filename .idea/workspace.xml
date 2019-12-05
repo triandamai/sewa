@@ -7,10 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28ed7f9d-5c46-498c-8225-4ece915dd689" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/helpers/database_entities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/models/model_barang.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/models/model_barang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/models/model_transaksi.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/models/model_transaksi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_penyewaan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/db_penyewaan.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/MainActivity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,11 +75,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+            <state relative-caret-position="288">
+              <caret line="55" column="71" selection-start-line="55" selection-start-column="71" selection-end-line="55" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/helpers/database_entities.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -194,10 +202,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/models/model_transaksi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
+            <state relative-caret-position="1995">
               <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
               <folding>
                 <element signature="e#898#899#0" expanded="true" />
@@ -276,15 +284,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/pages/user/user_base_page.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -316,16 +315,17 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/pages/user/user_base_page.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/pages/Error_page.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_error_page.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/MainActivity.java" />
         <option value="$PROJECT_DIR$/db_penyewaan.txt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/models/model_user.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/models/model_toko.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/models/model_barang.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/models/model_transaksi.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/helpers/database_entities.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/MainActivity.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="699" />
@@ -400,7 +400,7 @@
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="com.pmo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.pmo.sewa" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sewa" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="sewa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -411,7 +411,7 @@
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="com.pmo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.pmo.sewa" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sewa" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="models" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
@@ -435,6 +435,20 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="sewa" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sewa" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="sewa" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sewa" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="sewa" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sewa" type="1abcf292:AndroidViewProjectNode" />
@@ -617,15 +631,22 @@
       <option name="project" value="LOCAL" />
       <updated>1575559026934</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="complete model">
+      <created>1575559655913</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575559655913</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="699" height="754" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.35211268" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17019667" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -700,7 +721,8 @@
     <MESSAGE value="add login layout" />
     <MESSAGE value="prepare for login" />
     <MESSAGE value="add model" />
-    <option name="LAST_COMMIT_MESSAGE" value="add model" />
+    <MESSAGE value="complete model" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete model" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
@@ -836,20 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/authentication/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db_penyewaan.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -962,7 +970,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/models/model_transaksi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
+        <state relative-caret-position="1995">
           <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
           <folding>
             <element signature="e#898#899#0" expanded="true" />
@@ -1000,6 +1008,27 @@
             <element signature="e#2216#2217#0" expanded="true" />
             <element signature="e#2245#2246#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/helpers/database_entities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/authentication/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pmo/sewa/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="55" column="71" selection-start-line="55" selection-start-column="71" selection-end-line="55" selection-end-column="71" />
         </state>
       </provider>
     </entry>

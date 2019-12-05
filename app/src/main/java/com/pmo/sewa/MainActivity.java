@@ -17,6 +17,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.pmo.sewa.helpers.LOG;
+import com.pmo.sewa.helpers.database_entities;
 import com.pmo.sewa.pages.Error_page;
 import com.pmo.sewa.pages.admin.admin_base_page;
 import com.pmo.sewa.pages.penyedia.penyedia_base_page;
@@ -44,16 +45,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void cekLevel(){
-        databaseReference.child("USER")
+        databaseReference.child(database_entities.TABLE_USER)
                 .child(firebaseUser.getUid())
-                .child("level")
+                .child("Level")
                 .addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if (dataSnapshot.exists()){
                     Log.d(LOG.TAG_SUCCESS,dataSnapshot.toString());
                     String level = dataSnapshot.getValue(String.class);
-
                     assert level != null;
                     if(level.equalsIgnoreCase("ADMIN")){
                         startActivity(new Intent(context, admin_base_page.class));
@@ -78,6 +78,8 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(context,"Kesalahan..",Toast.LENGTH_LONG).show();
                 Log.d(LOG.TAG_ERROR,databaseError.getMessage());
                 Log.d(LOG.TAG_ERROR,databaseError.getDetails());
+                startActivity(new Intent(context, Error_page.class));
+                finish();
             }
         });
     }
