@@ -35,12 +35,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        firebaseAuth = FirebaseAuth.getInstance();
-        firebaseUser = firebaseAuth.getCurrentUser();
-        databaseReference = FirebaseDatabase.getInstance().getReference();
-        if(firebaseUser != null){
-            cekLevel();
-        }else {}
+//        firebaseAuth = FirebaseAuth.getInstance();
+//        firebaseUser = firebaseAuth.getCurrentUser();
+//        databaseReference = FirebaseDatabase.getInstance().getReference();
+//        if(firebaseUser != null){
+//            cekLevel();
+//        }else {}
 
     }
 

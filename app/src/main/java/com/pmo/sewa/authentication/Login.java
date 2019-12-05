@@ -6,16 +6,19 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.pmo.sewa.R;
+import com.pmo.sewa.helpers.LOG;
 
 public class Login extends AppCompatActivity {
     private FirebaseAuth firebaseAuth;
@@ -51,6 +54,9 @@ public class Login extends AppCompatActivity {
             public void onClick(View v) {
                 if(cekVal()){
 
+                }else {
+                    Toast.makeText(context,"Isi Semua Form !!",Toast.LENGTH_LONG).show();
+                    Log.d(LOG.TAG_WARN,"field kosong");
                 }
             }
         });
