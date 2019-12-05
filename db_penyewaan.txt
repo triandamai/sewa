@@ -1,6 +1,6 @@
 - User
 	-uid
-		-Nama
+		- Nama
 		- Nohp
 		- Email
 		- Alamat
@@ -8,15 +8,17 @@
 		- TerakhirOnline
 - Barang
 	-push id
-		- Nama barang
+		- Namabarang
 		- Kategori
 		- id_Toko
 		- Stok
 		- Harga Sewa
 - Toko
-	- push id
-		- Nama Toko
-		- Pemilik
+	- uid
+		- NamaToko
+		- AlamatToko
+		- PemilikToko
+		- BannerToko
 
 - Transaksi
 	- push id
