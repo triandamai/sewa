@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "320828199317",
+    "firebase_url": "https://penyewaan-f4480.firebaseio.com",
+    "project_id": "penyewaan-f4480",
+    "storage_bucket": "penyewaan-f4480.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320828199317:android:960a785cde24b36960a69c",
+        "android_client_info": {
+          "package_name": "com.pmo.sewa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320828199317-0lugje5pvtf5r76qbnk5pgdk1lgpah62.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pmo.sewa",
+            "certificate_hash": "5ce992c54564f7ed00280c063564767bdd732955"
+          }
+        },
+        {
+          "client_id": "320828199317-23qd6q25dj2rb42ii023ue5vqaggha9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkycQ-p9OrWbAK0vwbtqS2KCnBQgEPAuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320828199317-23qd6q25dj2rb42ii023ue5vqaggha9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
