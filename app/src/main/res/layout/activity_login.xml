@@ -24,6 +24,7 @@
                 android:textSize="40sp"
                 android:layout_marginBottom="35dp"/>
             <EditText
+                android:id="@+id/et_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="E-mail"
@@ -31,6 +32,7 @@
                 android:layout_marginBottom="20dp"
                 android:inputType="textEmailAddress"/>
             <EditText
+                android:id="@+id/et_pass"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Password"
@@ -38,6 +40,7 @@
                 android:layout_marginBottom="10dp"
                 android:inputType="textPassword"/>
             <TextView
+                android:id="@+id/tv_lupapass"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Lupa Password ?"
@@ -45,6 +48,7 @@
                 android:layout_marginBottom="30dp"
                 android:gravity="end" />
             <Button
+                android:id="@+id/btn_masuk"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="#fe4e37"
@@ -61,6 +65,7 @@
                     android:layout_height="wrap_content"
                     android:text="Belum Punya Akun ?"/>
                 <TextView
+                    android:id="@+id/tv_daftar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Daftar Disini"
