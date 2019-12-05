@@ -47,6 +47,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:background="#fe4e37"
                 android:text="MASUK"
                 android:textColor="#ffff"/>
             <LinearLayout

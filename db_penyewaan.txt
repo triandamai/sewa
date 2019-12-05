@@ -1,9 +1,11 @@
 - User
 	-uid
 		-Nama
-		- Ttl
-		- No Hp
+		- Nohp
 		- Email
+		- Alamat
+		- Level
+		- TerakhirOnline
 - Barang
 	-push id
 		- Nama barang
