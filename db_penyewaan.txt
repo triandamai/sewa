@@ -11,7 +11,8 @@
 		- Namabarang
 		- Kategori
 		- id_Toko
-		- Stok
+		- StokTersedia
+		- StokAsli
 		- Harga Sewa
 - Toko
 	- uid
@@ -21,12 +22,16 @@
 		- BannerToko
 
 - Transaksi
-	- push id
-		- id_Penyewa
-		- id_Barang
-		- id_Toko
+	- IDTRANSAKSI(push id)
+		- IDPENYEWA
+		- IDBARANG
+		- IDTOKO
+		- AlamatSewa
+		- BuktiPembayaran
+		- Status(menunggupembayaran,lunas,diantar,disewa,selesai,)
 		- Jumlah
 		- Total
+		- Tanggal
 
 		
 	

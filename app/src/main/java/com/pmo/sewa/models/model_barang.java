@@ -5,19 +5,21 @@ public class model_barang {
     public String NamaBarang;
     public String Kategori;
     public String IdToko;
-    public String Stok;
+    public String StokTersedia;
+    public String StokAsli;
     public String Harga;
 
     public model_barang(){
 
     }
 
-    public model_barang(String IDBARANG, String namaBarang, String kategori, String idToko, String stok, String harga) {
+    public model_barang(String IDBARANG, String namaBarang, String kategori, String idToko, String stokTersedia,String StokAsli, String harga) {
         this.IDBARANG = IDBARANG;
         this.NamaBarang = namaBarang;
         this.Kategori = kategori;
         this.IdToko = idToko;
-        this.Stok = stok;
+        this.StokTersedia = stokTersedia;
+        this.StokAsli = StokAsli;
         this.Harga = harga;
     }
 
@@ -53,12 +55,20 @@ public class model_barang {
         this.IdToko = idToko;
     }
 
-    public String getStok() {
-        return Stok;
+    public String getStokTersedia() {
+        return StokTersedia;
     }
 
-    public void setStok(String stok) {
-        this.Stok = stok;
+    public void setStokTersedia(String stokTersedia) {
+        this.StokTersedia = stokTersedia;
+    }
+
+    public String getStokAsli() {
+        return StokAsli;
+    }
+
+    public void setStokAsli(String stokAsli) {
+        StokAsli = stokAsli;
     }
 
     public String getHarga() {
