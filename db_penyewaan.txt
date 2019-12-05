@@ -1,0 +1,28 @@
+- User
+	-uid
+		-Nama
+		- Ttl
+		- No Hp
+		- Email
+- Barang
+	-push id
+		- Nama barang
+		- Kategori
+		- id_Toko
+		- Stok
+		- Harga Sewa
+- Toko
+	- push id
+		- Nama Toko
+		- Pemilik
+
+- Transaksi
+	- push id
+		- id_Penyewa
+		- id_Barang
+		- id_Toko
+		- Jumlah
+		- Total
+
+		
+	
